@@ -1,0 +1,98 @@
+body{
+	margin:0;
+}
+
+#navbar{
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 background-color: grey;
+	 padding: 5px;
+}
+
+#main{
+	height: 500px;
+	width: 100%;
+	background-color: lightblue;
+	display: flex;
+	justify-content: space-around;
+}
+
+#footer{
+	height: 100px;
+	width: 100%;
+	background-color: black;
+}
+
+#lista-horizontal > li{
+	padding:10px 45px;
+	margin-left:10px;
+	margin-right:10px;
+	display: inline-block;
+	/*border: solid 1px red;
+	background: coral;
+	border-radius: 3px;*/
+}
+
+.lista-texto{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 1px;
+	font-family: "Consolas";
+	/*font-style: italic*/
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.sublinhado {
+	text-decoration: underline;
+}
+
+.meio{
+	background-color: lightgreen;
+	border-radius: 30px;
+	padding: 10px;
+	margin: 100px;
+	width: 200px;
+	height: 200px;
+}
+
+.meio2{
+	background-color: grey;
+	border-radius: 30px;
+	padding: 10px;
+	margin: 100px;
+	width: 200px;
+	height: 200px;
+}
+
+.meio3{
+	background-color: white;
+	border-radius: 30px;
+	padding: 10px;
+	margin: 100px;
+	width: 200px;
+	height: 200px;
+}
+
+.contato{
+	text-align: center;
+	margin:100px;
+	font-family: "Consolas";
+	font-size: 20px;
+	font-weight: bold;
+}
+/*transition: ease tempo em s - tempo de resposta tem que por no pai*/
+/*hover quando o mouse chega nele*/
+/*criar inferior a texto é com text-shadow N°px N°px N°px e cor*/
+/*criar inferior a texto é com box-shadow N°px N°px N°px e cor*/
